@@ -1,0 +1,17 @@
+{
+  name: "bootstrap-3-timepicker",
+  version: "0.1",
+  description: "A timepicker component for Twitter Bootstrap 3.x",
+  repository: {
+    type: "git",
+    url: "https://github.com/atn9/bootstrap-3-timepicker"
+  },
+  main: [
+    "js/bootstrap-timepicker.js",
+    "css/bootstrap-timepicker.css"
+  ],
+  dependencies: {
+    bootstrap: ">=3.0",
+    jquery: ">=1.8.3",
+  }
+}
